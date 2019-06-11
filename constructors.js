@@ -127,7 +127,6 @@ User.prototype.removeSavedPost = function(id) {
   this.savedPosts = this.savedPosts.filter(e => e.id !== id)
 }
 
-
 ////////// PROBLEM 7 //////////
 
 // You will continue to use the constructor function you created in problem 5.
